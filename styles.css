@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  header h1, header h2 {
+    margin: 0;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    padding-top: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #f0a500;
+  }
+  
+  .content {
+    margin-left: 220px;
+    padding: 20px;
+    width: 80%;
+  }
+  
+  .page {
+    display: none;
+  }
+  
+  .page img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  footer .contact, footer .map {
+    margin: 10px 0;
+  }
+  
+  footer .map iframe {
+    border: none;
+  }
